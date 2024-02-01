@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34526.213
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonAPI", "PersonAPI\PersonAPI.csproj", "{DEB8E30F-F45E-4442-A8A8-27813C049A05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MalwareExample", "MalwareExample\MalwareExample.csproj", "{0AE02A64-4ED5-4103-B284-8DEC4AEB9CE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEB8E30F-F45E-4442-A8A8-27813C049A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB8E30F-F45E-4442-A8A8-27813C049A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB8E30F-F45E-4442-A8A8-27813C049A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB8E30F-F45E-4442-A8A8-27813C049A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE02A64-4ED5-4103-B284-8DEC4AEB9CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE02A64-4ED5-4103-B284-8DEC4AEB9CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE02A64-4ED5-4103-B284-8DEC4AEB9CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE02A64-4ED5-4103-B284-8DEC4AEB9CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70EB9463-EA7A-4C15-B7B9-261F268EAA91}
+	EndGlobalSection
+EndGlobal

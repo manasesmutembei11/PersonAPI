@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34526.213
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonAPI", "PersonAPI\PersonAPI.csproj", "{DEB8E30F-F45E-4442-A8A8-27813C049A05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonAPI", "PersonAPI\PersonAPI.csproj", "{DEB8E30F-F45E-4442-A8A8-27813C049A05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MalwareExample", "MalwareExample\MalwareExample.csproj", "{0AE02A64-4ED5-4103-B284-8DEC4AEB9CE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MalwareExample", "MalwareExample\MalwareExample.csproj", "{0AE02A64-4ED5-4103-B284-8DEC4AEB9CE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{49035806-C1BD-447A-A5D7-2CF7E1A0CCAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "LoggerService\LoggerService.csproj", "{F661E3B6-7836-430D-A072-0EF5C71C6BA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,9 +22,16 @@ Global
 		{DEB8E30F-F45E-4442-A8A8-27813C049A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEB8E30F-F45E-4442-A8A8-27813C049A05}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0AE02A64-4ED5-4103-B284-8DEC4AEB9CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0AE02A64-4ED5-4103-B284-8DEC4AEB9CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AE02A64-4ED5-4103-B284-8DEC4AEB9CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AE02A64-4ED5-4103-B284-8DEC4AEB9CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49035806-C1BD-447A-A5D7-2CF7E1A0CCAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49035806-C1BD-447A-A5D7-2CF7E1A0CCAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49035806-C1BD-447A-A5D7-2CF7E1A0CCAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49035806-C1BD-447A-A5D7-2CF7E1A0CCAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F661E3B6-7836-430D-A072-0EF5C71C6BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F661E3B6-7836-430D-A072-0EF5C71C6BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F661E3B6-7836-430D-A072-0EF5C71C6BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F661E3B6-7836-430D-A072-0EF5C71C6BA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
